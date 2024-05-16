@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategray;
+    font-family: "Poetsen One", sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+header img{
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+header h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+form input{
+    width: 500px;
+    height: 24px;
+    border: none;
+}
+
+form button {
+    width: 100px;
+    height: 24px;
+    background-color: cornflowerblue;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+form button:hover{
+    opacity: .8;
+}
+
+form button:active {
+    opacity: .5;
+}
+
+ul li{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+ul #lineUp{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
